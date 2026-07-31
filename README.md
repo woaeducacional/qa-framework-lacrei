@@ -1,24 +1,23 @@
 # QA Framework — Lacrei Saúde
 
-Framework de **Quality Assurance** desenvolvido para o desafio técnico da **Lacrei Saúde**.
+> Framework profissional de Quality Assurance desenvolvido para o desafio técnico da Lacrei Saúde.
 
-O objetivo deste projeto é implementar um processo completo de QA, contemplando planejamento, documentação, testes funcionais, testes não funcionais, automação, integração contínua (CI/CD) e gestão de evidências.
+## Objetivo
 
-Além da entrega do desafio técnico, este repositório foi estruturado para servir como um framework reutilizável em futuros projetos da WOA Talk.
+Este projeto tem como objetivo implementar um processo completo de Quality Assurance, contemplando:
 
----
+- Planejamento de testes
+- Estratégia de QA
+- Casos de teste em Gherkin
+- Testes automatizados com Cypress
+- Testes de acessibilidade
+- Testes de performance
+- Testes de responsividade
+- Pipeline CI/CD com GitHub Actions
+- Documentação de bugs
+- Evidências de execução
 
-## Objetivos
-
-- Definir uma estratégia profissional de Quality Assurance.
-- Elaborar plano de testes.
-- Criar casos de teste em Gherkin.
-- Automatizar testes utilizando Cypress.
-- Integrar testes ao GitHub Actions.
-- Executar testes de acessibilidade.
-- Executar testes de performance.
-- Validar responsividade.
-- Documentar bugs e evidências.
+Além do desafio técnico, este framework foi desenvolvido para servir como base reutilizável em futuros projetos.
 
 ---
 
@@ -38,21 +37,40 @@ Além da entrega do desafio técnico, este repositório foi estruturado para ser
 
 ```text
 qa-framework-lacrei
-├── docs/
-├── cypress/
-├── .github/
-├── README.md
-└── LICENSE
+├── docs
+│   ├── architecture
+│   ├── bug-reports
+│   ├── evidencias
+│   ├── test-cases
+│   └── test-plan
+│
+├── cypress
+│   ├── e2e
+│   ├── fixtures
+│   ├── support
+│   ├── screenshots
+│   └── videos
+│
+└── .github
+    └── workflows
 ```
 
 ---
 
-## Status
+## Roadmap
 
-🚧 Projeto em desenvolvimento.
+- [x] Estrutura inicial do projeto
+- [x] Organização da documentação
+- [ ] Plano de Testes
+- [ ] Estratégia de QA
+- [ ] Casos de Teste
+- [ ] Automação com Cypress
+- [ ] Pipeline GitHub Actions
+- [ ] Relatórios
+- [ ] Documentação Final
 
 ---
 
 ## Licença
 
-Este projeto está licenciado sob a licença MIT.
+Distribuído sob a licença MIT.
