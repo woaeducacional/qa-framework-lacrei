@@ -1,0 +1,36 @@
+{
+  "name": "qa-framework-lacrei",
+  "version": "1.0.0",
+  "description": "Framework profissional de Quality Assurance desenvolvido para o desafio técnico da Lacrei Saúde.",
+  "author": "Oliver WOA",
+  "license": "MIT",
+  "type": "commonjs",
+  "private": true,
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Use 'npm run cypress:open' ou 'npm run cypress:run'\"",
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github-woa:woaeducacional/qa-framework-lacrei.git"
+  },
+  "keywords": [
+    "qa",
+    "quality-assurance",
+    "testing",
+    "cypress",
+    "gherkin",
+    "bdd",
+    "automation",
+    "lacrei-saude"
+  ],
+  "devDependencies": {
+    "cypress": "^15.19.0",
+    "lighthouse": "^13.4.1"
+  }
+}
