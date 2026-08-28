@@ -29,3 +29,14 @@ jobs:
 
       - name: Executar testes Cypress
         run: npm run cypress:run
+
+      - name: Publicar evidências da automação
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: qa-automation-evidence
+          path: |
+            cypress/screenshots/**
+            cypress/videos/**
+          if-no-files-found: warn
+          retention-days: 14
